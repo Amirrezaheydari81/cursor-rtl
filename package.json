@@ -5,6 +5,10 @@
   "version": "1.0.0",
   "publisher": "amirr",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amirrezaheydari81/cursor-rtl.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -118,6 +122,6 @@
   },
   "scripts": {
     "vscode:uninstall": "node ./src/uninstall.js",
-    "package": "npx --yes @vscode/vsce package --allow-missing-repository"
+    "package": "npx --yes @vscode/vsce package"
   }
 }
