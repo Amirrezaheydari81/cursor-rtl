@@ -1,0 +1,123 @@
+{
+  "name": "cursor-rtl",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "1.0.0",
+  "publisher": "amirr",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "rtl",
+    "persian",
+    "farsi",
+    "arabic",
+    "cursor",
+    "chat"
+  ],
+  "main": "./src/extension.js",
+  "l10n": "./l10n",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "cursorRtl.enable",
+        "title": "%command.enable%",
+        "category": "Cursor RTL"
+      },
+      {
+        "command": "cursorRtl.disable",
+        "title": "%command.disable%",
+        "category": "Cursor RTL"
+      },
+      {
+        "command": "cursorRtl.selectFont",
+        "title": "%command.selectFont%",
+        "category": "Cursor RTL"
+      },
+      {
+        "command": "cursorRtl.reapply",
+        "title": "%command.reapply%",
+        "category": "Cursor RTL"
+      }
+    ],
+    "configuration": {
+      "title": "Cursor RTL",
+      "properties": {
+        "cursorRtl.enabled": {
+          "type": "boolean",
+          "default": true,
+          "order": 0,
+          "markdownDescription": "%config.enabled%"
+        },
+        "cursorRtl.direction": {
+          "type": "string",
+          "enum": [
+            "rtl",
+            "auto"
+          ],
+          "enumDescriptions": [
+            "%config.direction.rtl%",
+            "%config.direction.auto%"
+          ],
+          "default": "rtl",
+          "order": 1,
+          "markdownDescription": "%config.direction%"
+        },
+        "cursorRtl.font.family": {
+          "type": "string",
+          "default": "Vazirmatn",
+          "order": 2,
+          "markdownDescription": "%config.font.family%"
+        },
+        "cursorRtl.font.size": {
+          "type": "number",
+          "default": 0,
+          "minimum": 0,
+          "maximum": 40,
+          "order": 3,
+          "markdownDescription": "%config.font.size%"
+        },
+        "cursorRtl.font.lineHeight": {
+          "type": "number",
+          "default": 0,
+          "minimum": 0,
+          "maximum": 4,
+          "order": 4,
+          "markdownDescription": "%config.font.lineHeight%"
+        },
+        "cursorRtl.font.applyToInput": {
+          "type": "boolean",
+          "default": true,
+          "order": 5,
+          "markdownDescription": "%config.font.applyToInput%"
+        },
+        "cursorRtl.customCss": {
+          "type": "string",
+          "default": "",
+          "editPresentation": "multilineText",
+          "order": 6,
+          "markdownDescription": "%config.customCss%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:uninstall": "node ./src/uninstall.js",
+    "package": "npx --yes @vscode/vsce package --allow-missing-repository"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "displayName": "Cursor RTL (Persian Chat)",
+  "description": "Right-to-left layout and a configurable Persian font for the Cursor AI chat.",
+  "command.enable": "Enable RTL Chat",
+  "command.disable": "Disable RTL Chat (Restore Cursor Files)",
+  "command.selectFont": "Select Persian Font...",
+  "command.reapply": "Re-apply Patch",
+  "config.enabled": "Apply RTL layout to the Cursor chat. Turning this off removes the patch from Cursor's files.",
+  "config.direction": "Text direction of chat messages.",
+  "config.direction.rtl": "Always right-to-left.",
+  "config.direction.auto": "Detect per paragraph: Persian paragraphs RTL, English paragraphs LTR.",
+  "config.font.family": "Font family used for chat text (must be installed on your system). Leave empty to keep Cursor's default font.\n\n[Pick from installed fonts](command:cursorRtl.selectFont)",
+  "config.font.size": "Chat font size in pixels. `0` keeps Cursor's default.",
+  "config.font.lineHeight": "Chat line height (e.g. `1.8`). `0` keeps Cursor's default.",
+  "config.font.applyToInput": "Also use the font in the chat input box.",
+  "config.customCss": "Extra CSS appended after the built-in rules."
+}

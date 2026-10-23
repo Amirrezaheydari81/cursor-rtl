@@ -1,0 +1,17 @@
+{
+  "displayName": "Cursor RTL (چت فارسی)",
+  "description": "راست‌چین کردن چت هوش مصنوعی Cursor با فونت فارسی قابل انتخاب.",
+  "command.enable": "فعال‌سازی راست‌چین چت",
+  "command.disable": "غیرفعال‌سازی راست‌چین (بازگردانی فایل‌های Cursor)",
+  "command.selectFont": "انتخاب فونت فارسی...",
+  "command.reapply": "اعمال مجدد پچ",
+  "config.enabled": "راست‌چین کردن چت Cursor. خاموش کردن این گزینه پچ را از فایل‌های Cursor حذف می‌کند.",
+  "config.direction": "جهت متن پیام‌های چت.",
+  "config.direction.rtl": "همیشه راست‌به‌چپ.",
+  "config.direction.auto": "تشخیص خودکار برای هر پاراگراف: فارسی راست‌به‌چپ، انگلیسی چپ‌به‌راست.",
+  "config.font.family": "نام فونت متن چت (باید روی سیستم نصب باشد). برای فونت پیش‌فرض Cursor خالی بگذارید.\n\n[انتخاب از فونت‌های نصب‌شده](command:cursorRtl.selectFont)",
+  "config.font.size": "اندازه فونت چت به پیکسل. `0` یعنی پیش‌فرض Cursor.",
+  "config.font.lineHeight": "فاصله خطوط چت (مثلاً `1.8`). `0` یعنی پیش‌فرض Cursor.",
+  "config.font.applyToInput": "فونت در کادر ورودی چت هم اعمال شود.",
+  "config.customCss": "CSS اضافه که بعد از قوانین داخلی اعمال می‌شود."
+}

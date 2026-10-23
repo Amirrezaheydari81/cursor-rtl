@@ -1,0 +1,16 @@
+{
+  "Reload Window": "بارگذاری مجدد پنجره",
+  "Cursor RTL: changes are ready. Reload the window to apply them.": "Cursor RTL: تغییرات آماده است. برای اعمال، پنجره را دوباره بارگذاری کنید.",
+  "Cursor's install folder is not writable. Run Cursor once as administrator, then run \"Cursor RTL: Re-apply Patch\".": "پوشه نصب Cursor قابل نوشتن نیست. یک بار Cursor را با دسترسی Administrator اجرا کنید و سپس دستور «Cursor RTL: اعمال مجدد پچ» را بزنید.",
+  "Cursor's install folder is not writable. Give your user write access to it (e.g. with chown), then run \"Cursor RTL: Re-apply Patch\".": "پوشه نصب Cursor قابل نوشتن نیست. به کاربر خود دسترسی نوشتن بدهید (مثلاً با chown) و سپس دستور «Cursor RTL: اعمال مجدد پچ» را بزنید.",
+  "Reading installed fonts...": "در حال خواندن فونت‌های نصب‌شده...",
+  "$(edit) Enter a font name...": "$(edit) وارد کردن نام فونت...",
+  "$(discard) Cursor default font": "$(discard) فونت پیش‌فرض Cursor",
+  "current": "فعلی",
+  "Persian fonts": "فونت‌های فارسی",
+  "All installed fonts": "همه فونت‌های نصب‌شده",
+  "Cursor RTL: chat font": "Cursor RTL: فونت چت",
+  "Current font: {0}": "فونت فعلی: {0}",
+  "Pick a font for the chat": "یک فونت برای چت انتخاب کنید",
+  "Font family name as installed on your system. Separate fallbacks with commas.": "نام فونت همان‌طور که روی سیستم نصب است. فونت‌های جایگزین را با کاما جدا کنید."
+}
